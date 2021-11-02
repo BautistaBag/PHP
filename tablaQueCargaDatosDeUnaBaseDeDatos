@@ -15,7 +15,7 @@ echo "<th>Apellido</th>";
 echo "<th>DNI</th>";
 echo "<th>EMAIL</th>";
 
-$link = mysql_connect("" , "" , "" );
+$link = mysql_connect("localhost" , "root" , "" );
 $base = mysql_select_db ("nombreCarpetaBaseDeDatos");
 $query1 =  "SELECT * FROM nombreTabla ORDER BY nombre";
 $result1 = mysql_query ( $query1);
