@@ -6,7 +6,7 @@
 echo "<form  action='ponerNombrePagina.php' method='post'>";
 echo "<h1 style = 'background-color:#1C69CD' align=center>Datos de usuario</h1>";
 
-echo "</form>";
+
 
 echo "<table  border='0' width='80%' cellspacing='0' cellpadding='0' bgcolor='#FFFFF' style='border: 1px dotted #585858;'>";
 
@@ -35,6 +35,6 @@ echo "</tr>";
 
 
 echo "</div>";
-
+echo "</form>";
 
 ?>
