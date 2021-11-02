@@ -3,7 +3,7 @@ echo "<form action=formulario_bauti.php name=frm method=post>";
 echo "<input type=hidden name=ingresar value='$ingresar'>";
 echo "<input type=hidden name=id value='$id'>";
 
-//INSERTAR VALORES A UNA TABLA DE LA BASE DE DATOS
+//INSERTAR VALORES A UNA TABLA DE LA BASE DE DATOS. CREANDO UN FORMULARIO
 
 //conecto con el servidor local
 $link = mysql_connect("localhost" , "root" , "" );
