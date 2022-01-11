@@ -1,21 +1,21 @@
 	<div class="widget-content">
 							
-								<form class="form-horizontal" id="sample_form" action=".php" name=frm method="POST" enctype='multipart/form-data' >
+<form class="form-horizontal" id="sample_form" action=".php" name=frm method="POST" enctype='multipart/form-data' >
 
-									<input type="hidden" name=ingresar value="" >
+<input type="hidden" name=ingresar value="" >
 
-									<input type="hidden" name=idmsg value="<?echo $idmsg;?>" >
-								<input type="hidden" name=entra value="1" >
+<input type="hidden" name=idmsg value="<?echo $idmsg;?>" >
+<input type="hidden" name=entra value="1" >
 						
-    // si idmsg es vacio, quiere decir que es un mensaje nuevo, en donde el usuario quiere realicar un nuevo mensaje. Por lo tanto como todo comienzo de conversacion debe tener un asunto, asi que le muestro por pantalla un input para que ponga el asunto de la conversacion
+    // si idmsg es vacio, quiere decir que es un mensaje nuevo, en donde el usuario quiere realizar un nuevo mensaje. Por lo tanto como todo comienzo de conversacion debe tener un asunto, asi que le muestro por pantalla un input para que ponga el asunto de la conversacion
 
-									<?if($idmsg==""){?>
-									<div class="form-group">
-														<label class="col-md-3 control-label">ASUNTO </label>
-														<div class="col-md-6">
-															<input type="text" name="asunto" value=""  class="form-control"  />
-															<span class="help-block">ingrese asunto</span>
-														</div>
+					<?if($idmsg==""){?>
+					<div class="form-group">
+												<label class="col-md-3 control-label">ASUNTO </label>
+												<div class="col-md-6">
+													<input type="text" name="asunto" value=""  class="form-control"  />
+													<span class="help-block">ingrese asunto</span>
+												</div>			
 								</div>	
 									<?};?>	
 											<div class="form-group">
@@ -35,7 +35,7 @@
 														<span class="help-block"></span>
 														
 														</div>
-									</div>				
+								</div>				
 													
 									<div class="form-actions">
 									
